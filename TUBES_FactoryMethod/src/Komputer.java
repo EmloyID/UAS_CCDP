@@ -16,14 +16,22 @@ public class Komputer{
     }
 
     public void komputer1() {
-        System.out.println("Ip Address    : 192.168.1.5");
-        System.out.println("Nama Komputer : Komputer 1");
-        System.out.println("Ruangan       : Gaming");
+        ipAddress="192.168.1.5";
+        nama="Komputer 1";
+        ruangan="Gaming";
+
+        System.out.println("Ip Address    : "+ipAddress);
+        System.out.println("Nama Komputer : "+nama);
+        System.out.println("Ruangan       : "+ruangan);
     }
 
     public void komputer2() {
-        System.out.println("Ip Address     : 192.168.1.10");
-        System.out.println("Nama Komputer  : Komputer 2");
-        System.out.println("Ruangan        : Browsing");
+        ipAddress="192.168.1.10";
+        nama="Komputer 2";
+        ruangan="Browsing";
+
+        System.out.println("Ip Address     : "+ipAddress);
+        System.out.println("Nama Komputer  : "+nama);
+        System.out.println("Ruangan        : "+ruangan);
     }
 }

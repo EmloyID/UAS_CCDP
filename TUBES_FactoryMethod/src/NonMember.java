@@ -22,6 +22,7 @@ public class NonMember implements JenisMember {
         System.out.println("Password : "+passwordNonMember);
         System.out.println("--------------");
         paket.paket1();
+        System.out.println("--------------");
         komputer.komputer1();
     }
 }

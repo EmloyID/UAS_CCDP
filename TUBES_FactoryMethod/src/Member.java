@@ -45,6 +45,7 @@ public class Member implements JenisMember {
         System.out.println("Tgl Daftar : "+tglDaftar);
         System.out.println("--------------");
         paket.paket2();
+        System.out.println("--------------");
         komputer.komputer2();
     }
 }
