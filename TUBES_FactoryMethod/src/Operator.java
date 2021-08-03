@@ -7,9 +7,9 @@ public class Operator {
         JenisMember member=daftarbillingfactory.getJenisMember("Member");
 
         System.out.println("MEMBER");
-        nonmember.jenisMemberiface();
+        member.jenisMemberiface();
         System.out.println("=============================");
         System.out.println("NON MEMBER");
-        member.jenisMemberiface();
+        nonmember.jenisMemberiface();
     }
 }
